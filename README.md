@@ -1,0 +1,113 @@
+# Norn Human Brand OS — Dosya Paketi
+
+Bu paket, önceki çalışma adı Nornetik ile hazırlanmış Brand OS dokümanlarının 16 Temmuz 2026 tarihinde kesinleşen marka kararına göre güncellenmiş sürümüdür.
+
+## Kesinleşen marka yapısı
+
+- **Ana marka:** Norn
+- **Dijital eğitim platformu / alt marka:** Norn Human
+- **Kamusal yazım:** Norn Human
+- **Teknik kullanım:** NornHuman yalnızca alan adı, kullanıcı adı veya teknik zorunluluk bulunan yerlerde
+
+## Dosyalar
+
+- `01_Strategy/`
+  - `Brand Strategy.md`
+  - `Voice & Messaging.md`
+- `02_Identity/`
+  - `Color System.md`
+  - `Typography.md`
+  - `Logo/`
+    - `00_START_HERE.md`
+    - `01_MASTER_PROMPT.md`
+    - `02_LOGO_BRIEF.md`
+    - `03_EVALUATION_MATRIX.md`
+    - `04_Brand_Foundations/`
+      - `Brand_Strategy.md`
+      - `Color_System.md`
+      - `Design_System.md`
+      - `Typography.md`
+      - `Voice_and_Messaging.md`
+    - `05_References/`
+      - `00_REFERENCE_MANIFEST.md`
+      - `01_Approved_Visual_Direction/`
+        - `PNG_PLACEMENT_GUIDE.md`
+      - `02_Form_and_Symbol/`
+        - `PNG_PLACEMENT_GUIDE.md`
+      - `03_Wordmark_and_Typography/`
+        - `PNG_PLACEMENT_GUIDE.md`
+      - `04_Brand_Architecture_and_Lockups/`
+        - `PNG_PLACEMENT_GUIDE.md`
+      - `05_App_Icon_and_Small_Size/`
+        - `PNG_PLACEMENT_GUIDE.md`
+      - `06_Real_World_Applications/`
+        - `PNG_PLACEMENT_GUIDE.md`
+      - `07_Avoid/`
+        - `PNG_PLACEMENT_GUIDE.md`
+    - `06_Output_Structure/`
+      - `00_OUTPUT_GUIDE.md`
+      - `01_Route_A_Woven_N/` _(boş, yer tutucu)_
+      - `02_Route_B_Path_and_Connection/` _(boş, yer tutucu)_
+      - `03_Route_C_Human_and_Wholeness/` _(boş, yer tutucu)_
+      - `04_Route_D_Distinctive_Wordmark/` _(boş, yer tutucu)_
+      - `05_Shortlist/` _(boş, yer tutucu)_
+      - `06_Selected_Direction/` _(boş, yer tutucu)_
+      - `07_Final_Assets/` _(boş, yer tutucu)_
+- `03_Design_System/`
+  - `Design System.md`
+  - `Design%20Tokens.json`
+- `04_AI Design/`
+  - `AI%20Prompt%20Rules.md`
+  - `Claude%20Design%20Instructions.md`
+- `05_Visual Direction/`
+  - `00_START_HERE.md`
+  - `01_VISUAL_DIRECTION_BRIEF.md`
+  - `02_ASSET_MANIFEST.md`
+  - `03_CLAUDE_DESIGN_PROMPT.md`
+  - `Moodboard.pdf`
+  - `Asset Library/`
+    - `00_ASSET_INDEX.md`
+    - `Icons/`
+      - `00_START_HERE.md`
+      - `01_ICON_SYSTEM.md`
+      - `02_LUCIDE_BASE_SET.json`
+      - `03_SEMANTIC_ICON_MAP.json`
+      - `04_CUSTOM_ICON_BRIEFS.md`
+      - `05_ICON_MANIFEST.csv`
+      - `06_CLAUDE_DESIGN_PROMPT.md`
+      - `Archive/`
+        - `README.md`
+      - `Base UI/`
+        - `README.md`
+      - `Brand Custom/`
+        - `README.md`
+        - `Exports/`
+          - `PNG/` _(boş, yer tutucu)_
+          - `SVG/` _(boş, yer tutucu)_
+        - `Source SVG/` _(boş, yer tutucu)_
+      - `States/`
+        - `README.md`
+    - `Illustrations/`
+      - `README.md`
+    - `Patterns/`
+      - `README.md`
+    - `Photography/`
+      - `README.md`
+    - `Textures/`
+      - `README.md`
+  - `Inspirations/`
+    - `00_INSPIRATION_INDEX.md`
+    - `01 Editorial and Cultural/`
+      - `README.md`
+    - `02 Human and Movement/`
+      - `README.md`
+    - `03 Nature Material and Space/`
+      - `README.md`
+    - `04 Digital and Product/`
+      - `README.md`
+    - `05 Avoid/`
+      - `README.md`
+- `06_Templates/`
+- `README.md`
+
+Eski marka adları yalnızca tarihsel kaynak dosyalarının isimleri açıklanırken korunmuştur; aktif marka, CTA, ürün ve tasarım dili Norn Human olarak güncellenmiştir.

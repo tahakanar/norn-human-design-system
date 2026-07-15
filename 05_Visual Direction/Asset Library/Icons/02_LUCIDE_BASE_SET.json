@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "name": "Norn Human Lucide Base Set",
+    "version": "1.0.0",
+    "source": "Lucide",
+    "style": "outline",
+    "defaultSize": 24,
+    "defaultStrokeWidth": 2,
+    "color": "currentColor",
+    "notes": [
+      "İkonlar işlevsel UI için seçilmiştir.",
+      "Kod tarafında yalnızca kullanılan ikonlar import edilmelidir.",
+      "Aynı anlam için tek icon standardı korunmalıdır."
+    ]
+  },
+  "categories": {
+    "navigation": [
+      "menu",
+      "x",
+      "chevron-left",
+      "chevron-right",
+      "chevron-down",
+      "arrow-left",
+      "arrow-right",
+      "ellipsis",
+      "ellipsis-vertical"
+    ],
+    "primaryNavigation": [
+      "house",
+      "search",
+      "library",
+      "calendar-days",
+      "user",
+      "settings",
+      "bell"
+    ],
+    "educationAndContent": [
+      "play",
+      "pause",
+      "volume-2",
+      "volume-x",
+      "maximize",
+      "captions",
+      "bookmark",
+      "heart",
+      "download",
+      "share-2",
+      "clock",
+      "list-video"
+    ],
+    "actionsAndForms": [
+      "plus",
+      "minus",
+      "check",
+      "circle-check",
+      "pencil",
+      "trash-2",
+      "upload",
+      "eye",
+      "eye-off",
+      "lock",
+      "unlock",
+      "copy",
+      "external-link"
+    ],
+    "feedbackAndStatus": [
+      "info",
+      "circle-alert",
+      "triangle-alert",
+      "circle-x",
+      "loader-circle",
+      "circle-help"
+    ],
+    "communication": [
+      "message-circle",
+      "messages-square",
+      "mail",
+      "phone",
+      "video",
+      "send"
+    ],
+    "peopleAndCommunity": [
+      "user",
+      "users",
+      "user-plus",
+      "contact",
+      "badge-check"
+    ],
+    "productModules": [
+      "gift",
+      "sparkles",
+      "credit-card",
+      "chart-no-axes-column-increasing",
+      "presentation",
+      "notebook-tabs",
+      "badge",
+      "star"
+    ]
+  }
+}

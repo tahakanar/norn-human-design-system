@@ -1,0 +1,76 @@
+﻿ID,Name,Source,Category,Semantic Alias,Status,File,Notes
+LUCIDE-001,menu,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-002,x,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-003,chevron-left,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-004,chevron-right,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-005,chevron-down,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-006,arrow-left,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-007,arrow-right,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-008,ellipsis,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-009,ellipsis-vertical,Lucide,navigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-010,house,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-011,search,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-012,library,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-013,calendar-days,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-014,user,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-015,settings,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-016,bell,Lucide,primaryNavigation,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-017,play,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-018,pause,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-019,volume-2,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-020,volume-x,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-021,maximize,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-022,captions,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-023,bookmark,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-024,heart,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-025,download,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-026,share-2,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-027,clock,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-028,list-video,Lucide,educationAndContent,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-029,plus,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-030,minus,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-031,check,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-032,circle-check,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-033,pencil,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-034,trash-2,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-035,upload,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-036,eye,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-037,eye-off,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-038,lock,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-039,unlock,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-040,copy,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-041,external-link,Lucide,actionsAndForms,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-042,info,Lucide,feedbackAndStatus,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-043,circle-alert,Lucide,feedbackAndStatus,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-044,triangle-alert,Lucide,feedbackAndStatus,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-045,circle-x,Lucide,feedbackAndStatus,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-046,loader-circle,Lucide,feedbackAndStatus,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-047,circle-help,Lucide,feedbackAndStatus,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-048,message-circle,Lucide,communication,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-049,messages-square,Lucide,communication,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-050,mail,Lucide,communication,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-051,phone,Lucide,communication,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-052,video,Lucide,communication,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-053,send,Lucide,communication,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-054,user,Lucide,peopleAndCommunity,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-055,users,Lucide,peopleAndCommunity,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-056,user-plus,Lucide,peopleAndCommunity,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-057,contact,Lucide,peopleAndCommunity,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-058,badge-check,Lucide,peopleAndCommunity,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-059,gift,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-060,sparkles,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-061,credit-card,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-062,chart-no-axes-column-increasing,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-063,presentation,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-064,notebook-tabs,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-065,badge,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+LUCIDE-066,star,Lucide,productModules,,APPROVED FOUNDATION,,Use from package; export only if required.
+NH-001,nh-meaning,Norn Human Custom,Meaning,education.meaning,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-meaning.svg,Create from custom brief; human approval required.
+NH-002,nh-body,Norn Human Custom,Body,education.body,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-body.svg,Create from custom brief; human approval required.
+NH-003,nh-life,Norn Human Custom,Life,education.life,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-life.svg,Create from custom brief; human approval required.
+NH-004,nh-path,Norn Human Custom,Brand,brand.path,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-path.svg,Create from custom brief; human approval required.
+NH-005,nh-progress,Norn Human Custom,Education,education.progress,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-progress.svg,Create from custom brief; human approval required.
+NH-006,nh-connection,Norn Human Custom,Brand,brand.connection,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-connection.svg,Create from custom brief; human approval required.
+NH-007,nh-practice,Norn Human Custom,Brand,brand.practice,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-practice.svg,Create from custom brief; human approval required.
+NH-008,nh-gathering,Norn Human Custom,Community,community.gathering,EXPLORATION REQUIRED,Brand Custom/Source SVG/nh-gathering.svg,Create from custom brief; human approval required.
+TEMP-001,star,Lucide,Product,product.starSystem,OPEN DECISION,,Temporary only until tier/token model is finalized.

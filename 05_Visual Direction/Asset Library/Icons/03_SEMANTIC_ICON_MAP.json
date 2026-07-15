@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "name": "Norn Human Semantic Icon Map",
+    "version": "1.0.0",
+    "fallback": "circle-help",
+    "rule": "One meaning, one icon, one system"
+  },
+  "aliases": {
+    "navigation.home": {
+      "source": "lucide",
+      "icon": "house"
+    },
+    "navigation.menu": {
+      "source": "lucide",
+      "icon": "menu"
+    },
+    "navigation.close": {
+      "source": "lucide",
+      "icon": "x"
+    },
+    "navigation.back": {
+      "source": "lucide",
+      "icon": "arrow-left"
+    },
+    "navigation.forward": {
+      "source": "lucide",
+      "icon": "arrow-right"
+    },
+    "navigation.expand": {
+      "source": "lucide",
+      "icon": "chevron-down"
+    },
+    "navigation.more": {
+      "source": "lucide",
+      "icon": "ellipsis"
+    },
+    "navigation.moreVertical": {
+      "source": "lucide",
+      "icon": "ellipsis-vertical"
+    },
+    "search.default": {
+      "source": "lucide",
+      "icon": "search"
+    },
+    "education.library": {
+      "source": "lucide",
+      "icon": "library"
+    },
+    "education.video": {
+      "source": "lucide",
+      "icon": "circle-play"
+    },
+    "education.live": {
+      "source": "lucide",
+      "icon": "video"
+    },
+    "education.schedule": {
+      "source": "lucide",
+      "icon": "calendar-days"
+    },
+    "education.certificate": {
+      "source": "lucide",
+      "icon": "badge-check"
+    },
+    "education.continue": {
+      "source": "lucide",
+      "icon": "play"
+    },
+    "education.progress": {
+      "source": "custom",
+      "icon": "nh-progress"
+    },
+    "education.meaning": {
+      "source": "custom",
+      "icon": "nh-meaning"
+    },
+    "education.body": {
+      "source": "custom",
+      "icon": "nh-body"
+    },
+    "education.life": {
+      "source": "custom",
+      "icon": "nh-life"
+    },
+    "content.play": {
+      "source": "lucide",
+      "icon": "play"
+    },
+    "content.pause": {
+      "source": "lucide",
+      "icon": "pause"
+    },
+    "content.mute": {
+      "source": "lucide",
+      "icon": "volume-x"
+    },
+    "content.volume": {
+      "source": "lucide",
+      "icon": "volume-2"
+    },
+    "content.fullscreen": {
+      "source": "lucide",
+      "icon": "maximize"
+    },
+    "content.captions": {
+      "source": "lucide",
+      "icon": "captions"
+    },
+    "content.bookmark": {
+      "source": "lucide",
+      "icon": "bookmark"
+    },
+    "content.favorite": {
+      "source": "lucide",
+      "icon": "heart"
+    },
+    "content.download": {
+      "source": "lucide",
+      "icon": "download"
+    },
+    "content.share": {
+      "source": "lucide",
+      "icon": "share-2"
+    },
+    "action.add": {
+      "source": "lucide",
+      "icon": "plus"
+    },
+    "action.remove": {
+      "source": "lucide",
+      "icon": "minus"
+    },
+    "action.confirm": {
+      "source": "lucide",
+      "icon": "check"
+    },
+    "action.edit": {
+      "source": "lucide",
+      "icon": "pencil"
+    },
+    "action.delete": {
+      "source": "lucide",
+      "icon": "trash-2"
+    },
+    "action.upload": {
+      "source": "lucide",
+      "icon": "upload"
+    },
+    "action.copy": {
+      "source": "lucide",
+      "icon": "copy"
+    },
+    "action.external": {
+      "source": "lucide",
+      "icon": "external-link"
+    },
+    "action.lock": {
+      "source": "lucide",
+      "icon": "lock"
+    },
+    "action.unlock": {
+      "source": "lucide",
+      "icon": "unlock"
+    },
+    "action.show": {
+      "source": "lucide",
+      "icon": "eye"
+    },
+    "action.hide": {
+      "source": "lucide",
+      "icon": "eye-off"
+    },
+    "feedback.info": {
+      "source": "lucide",
+      "icon": "info"
+    },
+    "feedback.success": {
+      "source": "lucide",
+      "icon": "circle-check"
+    },
+    "feedback.warning": {
+      "source": "lucide",
+      "icon": "triangle-alert"
+    },
+    "feedback.error": {
+      "source": "lucide",
+      "icon": "circle-x"
+    },
+    "feedback.loading": {
+      "source": "lucide",
+      "icon": "loader-circle"
+    },
+    "feedback.help": {
+      "source": "lucide",
+      "icon": "circle-help"
+    },
+    "communication.message": {
+      "source": "lucide",
+      "icon": "message-circle"
+    },
+    "communication.conversation": {
+      "source": "lucide",
+      "icon": "messages-square"
+    },
+    "communication.email": {
+      "source": "lucide",
+      "icon": "mail"
+    },
+    "communication.phone": {
+      "source": "lucide",
+      "icon": "phone"
+    },
+    "communication.video": {
+      "source": "lucide",
+      "icon": "video"
+    },
+    "communication.send": {
+      "source": "lucide",
+      "icon": "send"
+    },
+    "community.people": {
+      "source": "lucide",
+      "icon": "users"
+    },
+    "community.addPerson": {
+      "source": "lucide",
+      "icon": "user-plus"
+    },
+    "community.gathering": {
+      "source": "custom",
+      "icon": "nh-gathering"
+    },
+    "brand.path": {
+      "source": "custom",
+      "icon": "nh-path"
+    },
+    "brand.connection": {
+      "source": "custom",
+      "icon": "nh-connection"
+    },
+    "brand.practice": {
+      "source": "custom",
+      "icon": "nh-practice"
+    },
+    "product.membership": {
+      "source": "lucide",
+      "icon": "credit-card"
+    },
+    "product.gift": {
+      "source": "lucide",
+      "icon": "gift"
+    },
+    "product.ai": {
+      "source": "lucide",
+      "icon": "sparkles"
+    },
+    "product.instructorPortal": {
+      "source": "lucide",
+      "icon": "presentation"
+    },
+    "product.admin": {
+      "source": "lucide",
+      "icon": "settings"
+    },
+    "product.starSystem": {
+      "source": "temporary",
+      "icon": "star",
+      "status": "open-decision",
+      "note": "Yıldız modelinin tier/token yapısı kesinleşmeden kalıcı ikon kabul edilmez."
+    }
+  }
+}
