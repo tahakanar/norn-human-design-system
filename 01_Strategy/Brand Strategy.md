@@ -14,6 +14,7 @@ primary_use:
   - Campaign and partnership decisions
 related_documents:
   - Voice & Messaging.md
+  - Education_Architecture.md
   - Design System.md
   - AI Prompt Rules.md
 ---

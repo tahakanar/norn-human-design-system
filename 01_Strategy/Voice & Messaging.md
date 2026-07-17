@@ -17,6 +17,7 @@ primary_use:
   - Claude Design and AI-assisted content production
 related_documents:
   - Brand Strategy.md
+  - Education_Architecture.md
   - Design System.md
   - AI Prompt Rules.md
 ---
