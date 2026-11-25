@@ -1,10 +1,10 @@
 ---
 document_name: Design System
 brand: Norn Human
-version: 2.0
-status: Foundation Specification — Component Production Required
+version: 2.1
+status: Approved Foundation — Typography v2.0 Synchronized
 language: tr-TR
-last_updated: 2026-07-16
+last_updated: 2026-07-20
 prepared_by: SedInsight — Stratejik Proje Liderliği & İş Geliştirme
 primary_use:
   - Brand website and landing pages
@@ -15,6 +15,12 @@ primary_use:
   - Campaign and event materials
   - Figma system setup
   - Claude Design and AI-assisted design production
+reference_direction:
+  modern_elder_academy: 30
+  mind_and_life: 25
+  on_being: 20
+  the_school_of_life: 15
+  esalen: 10
 related_documents:
   - ../01_Strategy/Brand Strategy.md
   - ../01_Strategy/Voice & Messaging.md
@@ -34,8 +40,6 @@ Bu dosya tek tek ekranların veya sosyal medya postlarının nasıl görünmesi 
 
 Bu sistem **Norn Human** için hazırlanmıştır. **Norn** ana marka ve kurucu yaklaşımı; **Norn Human** ise dijital eğitim platformunu, kullanıcı deneyimini, üyeliği ve ilgili pazarlama temaslarını ifade eder. Tasarım sistemi Norn ana markasının değerlerini taşır; ancak ürün bileşenleri ve dijital kullanım kuralları Norn Human'a özgüdür.
 
-
-
 Design System şu sorulara cevap verir:
 
 - Tasarımlar hangi temel ilkelerle üretilir?
@@ -49,7 +53,7 @@ Design System şu sorulara cevap verir:
 - Figma dosyası nasıl organize edilir?
 - Claude Design tasarım üretirken hangi kuralları ihlal edemez?
 
-> **Ana sistem ilkesi:** Norn Human tasarımı yalnızca estetik tutarlılık değil; güven, açıklık, öğrenme kolaylığı ve ölçeklenebilir operasyon üretmelidir.
+> **Ana sistem ilkesi:** Norn Human tasarımı yalnızca estetik tutarlılık değil; güven, açıklık, öğrenme kolaylığı ve ölçeklenebilir operasyon üretmelidir. Editoryal derinlik, afiş ölçeğinde tipografiyle değil; içerik, boşluk ve hiyerarşiyle kurulur.
 
 ---
 
@@ -91,7 +95,7 @@ Aşağıdaki alanlar ayrı dosya veya çalışma paketlerinde detaylandırılır
 - Logo kullanım kılavuzu
 - Tam ikon kütüphanesi
 - Bütün component varyantlarını içeren Component Library
-- Nihai Design Tokens JSON
+- Design Tokens JSON dışındaki platforma özel kod implementasyonu
 - Sayfa bazlı high-fidelity UI tasarımları
 - Kod kütüphanesi
 - Baskıya özel üretim spesifikasyonları
@@ -168,7 +172,35 @@ ile değil;
 
 ile oluşturulur.
 
-## 3.3 Bir Tasarım, Bir Ana Mesaj
+## 3.3 Tipografik Derinlik Afiş Ölçeği Değildir
+
+Norn Human’ın editoryal karakteri büyük başlıkların sürekli tekrarından gelmez.
+
+Sistem:
+
+- bir web sayfasında en fazla bir Display,
+- standart sayfalarda daha küçük Page H1,
+- bölüm başlıklarında 36px ve altı,
+- H3 ve altı seviyelerde ağırlıklı Manrope,
+- 16–17px okunabilir gövde,
+- Türkçe başlıklarda kontrollü satır uzunluğu
+
+kullanır.
+
+Her bölüm hero, her kart kapak ve her başlık manifesto gibi tasarlanmaz.
+
+Tipografik hiyerarşi:
+
+- boyut,
+- boşluk,
+- renk,
+- hizalama,
+- font rolü,
+- içerik yoğunluğu
+
+birlikte kullanılarak kurulur.
+
+## 3.4 Bir Tasarım, Bir Ana Mesaj
 
 Her ekran, post veya slayt tek bir ana görevi taşımalıdır.
 
@@ -180,11 +212,11 @@ Bir tasarımda:
 
 öne çıkarılır.
 
-## 3.4 İnsan Görünür Olmalıdır
+## 3.5 İnsan Görünür Olmalıdır
 
 Norn Human yalnızca soyut şekillerden oluşmaz. Sistem gerçek eğitmen, katılımcı, mekân, hareket, öğrenme anı ve topluluğa yer açmalıdır.
 
-## 3.5 Marka ve Ürün Aynı Aileden Gelmeli
+## 3.6 Marka ve Ürün Aynı Aileden Gelmeli
 
 Pazarlama sayfaları daha editoryal, ürün ekranları daha işlevsel olabilir. Ancak ikisi aynı:
 
@@ -197,7 +229,7 @@ Pazarlama sayfaları daha editoryal, ürün ekranları daha işlevsel olabilir. 
 
 üzerinden ilerlemelidir.
 
-## 3.6 Erişilebilirlik Son Kontrol Değildir
+## 3.7 Erişilebilirlik Son Kontrol Değildir
 
 Erişilebilirlik renk, komponent boyutu, motion, içerik hiyerarşisi, form ve responsive davranışta en baştan ele alınır.
 
@@ -391,13 +423,13 @@ Copy of Input
 
 ## 6.1 Breakpoints
 
-| Token | Viewport |
-|---|---:|
-| `xs` | 0–479px |
-| `sm` | 480–767px |
-| `md` | 768–1023px |
-| `lg` | 1024–1279px |
-| `xl` | 1280–1535px |
+| Token |        Viewport |
+| ----- | --------------: |
+| `xs`  |         0–479px |
+| `sm`  |       480–767px |
+| `md`  |      768–1023px |
+| `lg`  |     1024–1279px |
+| `xl`  |     1280–1535px |
 | `2xl` | 1536px ve üzeri |
 
 Breakpoint'ler cihaz modeline değil, içeriğin bozulduğu noktalara göre uygulanır.
@@ -405,13 +437,13 @@ Breakpoint'ler cihaz modeline değil, içeriğin bozulduğu noktalara göre uygu
 ## 6.2 Web Container
 
 | Breakpoint | Max container | Side padding |
-|---|---:|---:|
-| xs | Fluid | 20px |
-| sm | Fluid | 24px |
-| md | 720px | 32px |
-| lg | 960px | 40px |
-| xl | 1200px | 48px |
-| 2xl | 1320px | 64px |
+| ---------- | ------------: | -----------: |
+| xs         |         Fluid |         20px |
+| sm         |         Fluid |         24px |
+| md         |         720px |         32px |
+| lg         |         960px |         40px |
+| xl         |        1200px |         48px |
+| 2xl        |        1320px |         64px |
 
 Uzun okuma alanı:
 
@@ -480,38 +512,38 @@ Spacing sistemi **4px temel birime** dayanır. Ana ritim çoğunlukla 8px katlar
 
 ## 7.2 Primitive Scale
 
-| Token | Value |
-|---|---:|
-| `space.0` | 0 |
-| `space.1` | 4px |
-| `space.2` | 8px |
-| `space.3` | 12px |
-| `space.4` | 16px |
-| `space.5` | 20px |
-| `space.6` | 24px |
-| `space.8` | 32px |
-| `space.10` | 40px |
-| `space.12` | 48px |
-| `space.16` | 64px |
-| `space.20` | 80px |
-| `space.24` | 96px |
+| Token      | Value |
+| ---------- | ----: |
+| `space.0`  |     0 |
+| `space.1`  |   4px |
+| `space.2`  |   8px |
+| `space.3`  |  12px |
+| `space.4`  |  16px |
+| `space.5`  |  20px |
+| `space.6`  |  24px |
+| `space.8`  |  32px |
+| `space.10` |  40px |
+| `space.12` |  48px |
+| `space.16` |  64px |
+| `space.20` |  80px |
+| `space.24` |  96px |
 | `space.32` | 128px |
 | `space.40` | 160px |
 
 ## 7.3 Semantic Spacing
 
-| Token | Mobile | Desktop |
-|---|---:|---:|
-| `space.page.inline` | 20px | 48–64px |
-| `space.section.compact` | 48px | 64px |
-| `space.section.default` | 64px | 96px |
-| `space.section.spacious` | 80px | 128px |
-| `space.card.padding.sm` | 16px | 16px |
-| `space.card.padding.md` | 20px | 24px |
-| `space.card.padding.lg` | 24px | 32px |
-| `space.stack.sm` | 8px | 8px |
-| `space.stack.md` | 16px | 16px |
-| `space.stack.lg` | 24px | 24px |
+| Token                    | Mobile | Desktop |
+| ------------------------ | -----: | ------: |
+| `space.page.inline`      |   20px | 48–64px |
+| `space.section.compact`  |   48px |    64px |
+| `space.section.default`  |   64px |    96px |
+| `space.section.spacious` |   80px |   128px |
+| `space.card.padding.sm`  |   16px |    16px |
+| `space.card.padding.md`  |   20px |    24px |
+| `space.card.padding.lg`  |   24px |    32px |
+| `space.stack.sm`         |    8px |     8px |
+| `space.stack.md`         |   16px |    16px |
+| `space.stack.lg`         |   24px |    24px |
 
 ## 7.4 Kullanım Kuralı
 
@@ -527,12 +559,12 @@ Spacing sistemi **4px temel birime** dayanır. Ana ritim çoğunlukla 8px katlar
 
 ## 8.1 Control Heights
 
-| Size | Height | Kullanım |
-|---|---:|---|
-| Small | 36px | Yoğun desktop alanı |
-| Medium | 44px | Varsayılan web ve ürün |
-| Large | 52px | Landing page ve güçlü CTA |
-| XL | 60px | Sınırlı kampanya alanı |
+| Size   | Height | Kullanım                  |
+| ------ | -----: | ------------------------- |
+| Small  |   36px | Yoğun desktop alanı       |
+| Medium |   44px | Varsayılan web ve ürün    |
+| Large  |   52px | Landing page ve güçlü CTA |
+| XL     |   60px | Sınırlı kampanya alanı    |
 
 Mobil primary action için varsayılan minimum:
 
@@ -542,11 +574,11 @@ Mobil primary action için varsayılan minimum:
 
 ## 8.2 Icon Button
 
-| Size | Target |
-|---|---:|
-| Small | 36×36px |
+| Size   |  Target |
+| ------ | ------: |
+| Small  | 36×36px |
 | Medium | 44×44px |
-| Large | 52×52px |
+| Large  | 52×52px |
 
 ## 8.3 Touch Target Standard
 
@@ -582,15 +614,15 @@ Norn Human tamamen keskin veya aşırı yuvarlak bir sistem kullanmaz. Köşeler
 
 ## 9.2 Radius Scale
 
-| Token | Value | Kullanım |
-|---|---:|---|
-| `radius.none` | 0 | Full bleed |
-| `radius.xs` | 4px | Küçük badge |
-| `radius.sm` | 8px | Input, tag |
-| `radius.md` | 12px | Button, compact card |
-| `radius.lg` | 16px | Default card, modal |
-| `radius.xl` | 24px | Hero card, large media |
-| `radius.full` | 999px | Avatar, pill |
+| Token         | Value | Kullanım               |
+| ------------- | ----: | ---------------------- |
+| `radius.none` |     0 | Full bleed             |
+| `radius.xs`   |   4px | Küçük badge            |
+| `radius.sm`   |   8px | Input, tag             |
+| `radius.md`   |  12px | Button, compact card   |
+| `radius.lg`   |  16px | Default card, modal    |
+| `radius.xl`   |  24px | Hero card, large media |
+| `radius.full` | 999px | Avatar, pill           |
 
 Semantic kullanım:
 
@@ -610,13 +642,13 @@ Aynı sayfada rastgele radius değerleri kullanılmaz.
 
 ## 10.1 Stroke Scale
 
-| Token | Value |
-|---|---:|
-| `stroke.hairline` | 1px |
-| `stroke.default` | 1px |
-| `stroke.strong` | 2px |
-| `stroke.focus` | 2px |
-| `stroke.emphasis` | 3px |
+| Token             | Value |
+| ----------------- | ----: |
+| `stroke.hairline` |   1px |
+| `stroke.default`  |   1px |
+| `stroke.strong`   |   2px |
+| `stroke.focus`    |   2px |
+| `stroke.emphasis` |   3px |
 
 ## 10.2 Öncelik Sırası
 
@@ -652,13 +684,13 @@ elevation.4
 0 20px 48px rgba(31, 36, 40, 0.16)
 ```
 
-| Elevation | Kullanım |
-|---|---|
-| 0 | Normal page section |
-| 1 | Hover card, sticky bar |
-| 2 | Dropdown, floating card |
-| 3 | Modal, popover |
-| 4 | Kritik overlay; sınırlı |
+| Elevation | Kullanım                |
+| --------- | ----------------------- |
+| 0         | Normal page section     |
+| 1         | Hover card, sticky bar  |
+| 2         | Dropdown, floating card |
+| 3         | Modal, popover          |
+| 4         | Kritik overlay; sınırlı |
 
 Kartların çoğu surface, border ve spacing ile ayrılır.
 
@@ -666,13 +698,13 @@ Kartların çoğu surface, border ve spacing ile ayrılır.
 
 # 12. Opacity
 
-| Token | Value |
-|---|---:|
-| `opacity.disabled` | 0.48 |
-| `opacity.muted` | 0.64 |
-| `opacity.overlay.light` | 0.84 |
-| `opacity.overlay.dark` | 0.76 |
-| `opacity.scrim` | 0.56 |
+| Token                   | Value |
+| ----------------------- | ----: |
+| `opacity.disabled`      |  0.48 |
+| `opacity.muted`         |  0.64 |
+| `opacity.overlay.light` |  0.84 |
+| `opacity.overlay.dark`  |  0.76 |
+| `opacity.scrim`         |  0.56 |
 
 Kurallar:
 
@@ -687,18 +719,164 @@ Kurallar:
 
 Tipografi ayrıntıları `Typography.md`, renk ayrıntıları `Color System.md` içindedir.
 
-## 13.1 Tipografi Özeti
+Bu Design System sürümü, `Typography.md v2.0` ve `Design Tokens.json v2.0.0` ile senkronizedir.
+
+## 13.1 Tipografik Yön
 
 ```text
-Source Serif 4: Marka, editoryal, büyük başlık, alıntı
-Manrope: Gövde, UI, sosyal medya, form, buton, veri
+Source Serif 4
+→ Ana sayfa hero, standart Page H1, seçilmiş editoryal H2, makale başlığı ve alıntı
+
+Manrope
+→ H3 ve altı başlıklar, gövde, UI, navigasyon, kart, form, buton, filtre ve veri
 ```
 
-- Serif buton, input, tab ve tablo metni olmaz
-- Text color typography style içine gömülmez
-- Bir component içinde iki font yalnızca açık hiyerarşi gerekçesiyle kullanılır
+Ana karar font değişikliği değildir. Ölçek ve kullanım disiplini değiştirilmiştir.
 
-## 13.2 Renk Özeti
+Norn Human:
+
+- editoryal ama afiş gibi olmayan,
+- sakin ama silik olmayan,
+- içerik odaklı,
+- uzun Türkçe metne dayanıklı,
+- 35–65 yaş hedef kitle için okunabilir
+
+bir tipografi sistemi kullanır.
+
+## 13.2 Web Başlık Sınıfları
+
+Web sistemi üç farklı başlık rolü kullanır:
+
+```text
+Display
+Page H1
+Section Heading
+```
+
+### Display
+
+Yalnızca:
+
+- ana sayfa hero,
+- manifesto açılışı,
+- seçilmiş kampanya,
+- seçilmiş kurucu perspektifi
+
+için kullanılır.
+
+Bir sayfada en fazla:
+
+```text
+1 Display
+```
+
+bulunabilir.
+
+### Page H1
+
+Standart sayfa başlığıdır.
+
+Kullanım:
+
+- eğitimler,
+- eğitmenler,
+- üyelik,
+- blog kategorisi,
+- etkinlikler,
+- hakkımızda,
+- normal landing page.
+
+### Section Heading
+
+Sayfa içindeki bölüm başlığıdır. Her bölüm Display veya Page H1 ölçeğinde tasarlanmaz.
+
+## 13.3 Web Type Scale
+
+### Desktop
+
+| Style         | Font                  | Size / Line height |
+| ------------- | --------------------- | ------------------ |
+| Display       | Source Serif 4 Medium | 56 / 60px          |
+| Page H1       | Source Serif 4 Medium | 44 / 52px          |
+| Editorial H2  | Source Serif 4 Medium | 36 / 44px          |
+| Functional H2 | Manrope Semibold      | 36 / 44px          |
+| H3            | Manrope Semibold      | 28 / 36px          |
+| H4            | Manrope Semibold      | 22 / 30px          |
+| H5            | Manrope Semibold      | 18 / 26px          |
+| Lead          | Manrope Regular       | 18 / 30px          |
+| Body LG       | Manrope Regular       | 17 / 28px          |
+| Body MD       | Manrope Regular       | 16 / 26px          |
+| Body SM       | Manrope Regular       | 14 / 22px          |
+
+### Mobile
+
+| Style         | Font                  | Size / Line height |
+| ------------- | --------------------- | ------------------ |
+| Display       | Source Serif 4 Medium | 36 / 42px          |
+| Page H1       | Source Serif 4 Medium | 32 / 38px          |
+| Editorial H2  | Source Serif 4 Medium | 27 / 34px          |
+| Functional H2 | Manrope Semibold      | 27 / 34px          |
+| H3            | Manrope Semibold      | 23 / 30px          |
+| H4            | Manrope Semibold      | 20 / 28px          |
+| H5            | Manrope Semibold      | 18 / 26px          |
+| Lead          | Manrope Regular       | 17 / 27px          |
+| Body LG       | Manrope Regular       | 17 / 28px          |
+| Body MD       | Manrope Regular       | 16 / 26px          |
+| Body SM       | Manrope Regular       | 14 / 22px          |
+
+## 13.4 Product Type Scale
+
+Dijital platform, mobil uygulama, eğitmen paneli ve admin panelinde Manrope ana fonttur.
+
+| Style         | Size / Line height |
+| ------------- | ------------------ |
+| UI Display    | 32 / 40px          |
+| UI Heading XL | 28 / 36px          |
+| UI Heading LG | 22 / 30px          |
+| UI Heading MD | 18 / 26px          |
+| UI Heading SM | 16 / 24px          |
+| UI Body LG    | 17 / 27px          |
+| UI Body MD    | 16 / 24px          |
+| UI Body SM    | 14 / 20px          |
+
+Source Serif 4 ürün içinde yalnızca:
+
+- eğitim adı,
+- editoryal içerik,
+- kampanya alanı,
+- kısa alıntı
+
+için kullanılabilir.
+
+## 13.5 Tipografi Kullanım Sınırları
+
+- Serif buton, input, tab, filtre, navigasyon ve tablo metni olmaz.
+- H3 ve altı seviyelerde varsayılan font Manrope’tur.
+- Standart eğitim kütüphanesi ve üyelik sayfasında Display kullanılmaz.
+- Section H2 desktop’ta 36px’i, mobile’da 27px’i geçmez.
+- Gövde metni 16px altına indirilmez.
+- Display ideal olarak iki, en fazla üç satırdır.
+- Page H1 en fazla üç satırdır.
+- Kart başlığı ideal olarak iki, en fazla üç satırdır.
+- CTA tek satırdır.
+- Text color typography style içine gömülmez.
+- Bir component içinde iki font yalnızca açık hiyerarşi gerekçesiyle kullanılır.
+- Türkçe başlık metni tasarıma sığdırılmak için sürekli küçültülmez; önce metin editlenir.
+
+## 13.6 Sayfa Türüne Göre Varsayılan
+
+| Sayfa               | Ana başlık    | Bölüm başlığı                | Kart başlığı  |
+| ------------------- | ------------- | ---------------------------- | ------------- |
+| Ana sayfa           | Display       | Editorial veya Functional H2 | UI Heading MD |
+| Eğitim kütüphanesi  | Page H1       | Functional H2                | UI Heading MD |
+| Eğitim detayı       | Page H1       | UI Heading LG                | UI Heading MD |
+| Blog / rehber       | Page H1       | Editorial H2                 | UI Heading MD |
+| Etkinlik / workshop | Page H1       | Functional H2                | UI Heading MD |
+| Üyelik              | Page H1       | Functional H2                | UI Heading MD |
+| Product / dashboard | UI Heading XL | UI Heading LG                | UI Heading MD |
+| Admin               | UI Heading XL | UI Heading LG                | UI Heading MD |
+
+## 13.7 Renk Özeti
 
 ```text
 Canvas: Ivory
@@ -709,11 +887,12 @@ Body / practice: Olive
 Life / relationship: Earth
 ```
 
-- Primitive renk doğrudan component içine yazılmaz
-- Semantic token kullanılır
-- Kategori rengi action rengi yerine geçmez
-- Status renkleri kategori renkleriyle karıştırılmaz
-- Renk hiçbir bilgiyi tek başına taşımaz
+- Primitive renk doğrudan component içine yazılmaz.
+- Semantic token kullanılır.
+- Kategori rengi action rengi yerine geçmez.
+- Status renkleri kategori renkleriyle karıştırılmaz.
+- Renk hiçbir bilgiyi tek başına taşımaz.
+- Bronze uzun gövde metni veya ana UI icon rengi olarak kullanılmaz.
 
 ---
 
@@ -741,12 +920,12 @@ Default color: CurrentColor
 
 ## 14.3 Sizes
 
-| Size | Kullanım |
-|---|---|
-| 16px | Metadata |
-| 20px | Form, button |
-| 24px | Varsayılan UI |
-| 32px | Empty state |
+| Size    | Kullanım          |
+| ------- | ----------------- |
+| 16px    | Metadata          |
+| 20px    | Form, button      |
+| 24px    | Varsayılan UI     |
+| 32px    | Empty state       |
 | 40–48px | Marketing feature |
 
 ## 14.4 Kategori İkonları
@@ -818,15 +997,15 @@ Göstermesi gerekenler:
 
 ## 15.4 Aspect Ratios
 
-| Ratio | Kullanım |
-|---|---|
-| 16:9 | Hero, video |
-| 4:3 | Atölye, mekân |
-| 3:2 | Galeri |
-| 4:5 | Instagram post |
-| 9:16 | Reels / story |
-| 1:1 | Avatar, compact card |
-| 3:4 | Eğitmen portresi |
+| Ratio | Kullanım             |
+| ----- | -------------------- |
+| 16:9  | Hero, video          |
+| 4:3   | Atölye, mekân        |
+| 3:2   | Galeri               |
+| 4:5   | Instagram post       |
+| 9:16  | Reels / story        |
+| 1:1   | Avatar, compact card |
+| 3:4   | Eğitmen portresi     |
 
 ---
 
@@ -877,11 +1056,13 @@ Pattern metin okunabilirliğini düşürmez, bütün arka planı doldurmaz ve lo
 
 ## 17.1 Marketing
 
-- Daha fazla boşluk
-- Daha büyük tipografi
+- Daha fazla fakat kontrollü boşluk
+- Bir sayfada en fazla bir Display
+- Standart bölümlerde daha küçük section heading
 - Daha az component
 - Her bölümde tek anlatı
 - Güven kanıtlarının görünürlüğü
+- Büyük font yerine içerik, fotoğraf ve ritimle etki
 
 ## 17.2 Editorial
 
@@ -986,14 +1167,14 @@ olmalıdır.
 
 ## 19.3 Duration Tokens
 
-| Token | Duration | Kullanım |
-|---|---:|---|
-| `motion.instant` | 0ms | Reduced motion |
-| `motion.fast` | 120ms | Hover, press |
-| `motion.base` | 180ms | Küçük feedback |
-| `motion.medium` | 240ms | Dropdown, accordion |
-| `motion.slow` | 320ms | Modal, drawer |
-| `motion.editorial` | 480ms | Sınırlı marketing reveal |
+| Token              | Duration | Kullanım                 |
+| ------------------ | -------: | ------------------------ |
+| `motion.instant`   |      0ms | Reduced motion           |
+| `motion.fast`      |    120ms | Hover, press             |
+| `motion.base`      |    180ms | Küçük feedback           |
+| `motion.medium`    |    240ms | Dropdown, accordion      |
+| `motion.slow`      |    320ms | Modal, drawer            |
+| `motion.editorial` |    480ms | Sınırlı marketing reveal |
 
 ## 19.4 Easing
 
@@ -1353,6 +1534,57 @@ Norn Human marketing sayfaları genellikle şu sırayı takip eder:
 
 Her sayfa bütün bölümleri kullanmak zorunda değildir. Amaç, kullanıcı yolculuğuna göre gereksiz bölümleri kaldırmaktır.
 
+## 25.1 Tipografik Akış
+
+Marketing sayfası şu ölçekle ilerler:
+
+```text
+Ana sayfa hero
+→ Brand Display
+
+Standart landing page hero
+→ Brand Page H1
+
+Bölüm başlıkları
+→ Brand Section H2 veya Section H2 Sans
+
+Kart başlıkları
+→ UI Heading MD
+
+Gövde
+→ Brand Body MD veya Body LG
+```
+
+Aynı sayfada ikinci bir Display kullanılmaz.
+
+Bir section’ın önemini artırmak için önce:
+
+- boşluk,
+- görsel,
+- renk,
+- yerleşim,
+- içerik sırası
+
+kullanılır; doğrudan font büyütülmez.
+
+## 25.2 Ana Sayfa
+
+- Bir Display
+- Kontrollü lead
+- Daha küçük section başlıkları
+- Gerçek deneyim fotoğrafı
+- Tek primary CTA
+- The School of Life’taki konu açıklığı ile Esalen’deki deneyim hissinin dengesi
+
+## 25.3 Standart Landing Page
+
+- Page H1
+- 17–18px lead
+- 32–36px section heading
+- 18px kart başlığı
+- Operasyonel bilgi Manrope
+- Display kullanılmaz
+
 ---
 
 # 26. Product Page Structure
@@ -1486,13 +1718,49 @@ button.primary.bg.default
 button.primary.text.default
 input.border.focus
 card.education.padding
+pageHeader.standardTitle
+sectionHeader.editorial
 ```
 
-## 28.2 Token Kuralı
+## 28.2 Typography Token Hiyerarşisi
+
+Yeni canonical tipografi tokenları:
+
+```text
+typography.brand.desktop.display
+typography.brand.desktop.pageH1
+typography.brand.desktop.sectionH2
+typography.brand.desktop.sectionH2Sans
+typography.brand.desktop.sectionH3
+
+typography.brand.mobile.display
+typography.brand.mobile.pageH1
+typography.brand.mobile.sectionH2
+typography.brand.mobile.sectionH2Sans
+
+typography.ui.headingXL
+typography.ui.headingLG
+typography.ui.headingMD
+typography.ui.bodyMD
+```
+
+Eski:
+
+```text
+displayXL
+displayLG
+displayMD
+```
+
+tokenları kaldırılmıştır.
+
+Amaç, farklı büyük başlık seçenekleri üretmek değil; başlık rolünü kullanım amacına göre tanımlamaktır.
+
+## 28.3 Token Kuralı
 
 Component token doğrudan raw hex veya px yerine semantic veya primitive token'a referans verir.
 
-## 28.3 Naming
+## 28.4 Naming
 
 - İngilizce
 - Küçük harf
@@ -1706,9 +1974,9 @@ olmadan yapılmaz.
 ## 31.2 Bağımlılıklar
 
 ```text
-Typography + Color
+Typography v2.0 + Color
         ↓
-Spacing + Grid + Tokens
+Design Tokens v2.0 + Spacing + Grid
         ↓
 Base Components
         ↓
@@ -1777,15 +2045,47 @@ Logo ve icon system brand component üretimini etkiler; base UI component üreti
 - İlerleme
 - Yönetim
 
-## 32.3 Zorunlu Kurallar
+## 32.3 Tipografi Kararı
+
+Claude Design önce şu üç başlık rolünden birini seçmelidir:
+
+```text
+Display
+Page H1
+Section Heading
+```
+
+Karar filtresi:
+
+- Ana sayfanın veya manifestonun tek ana açılışı mı? → Display
+- Standart bir sayfanın başlığı mı? → Page H1
+- Sayfa içindeki bir bölüm mü? → Section Heading
+
+Display:
+
+- bir sayfada en fazla bir kez,
+- desktop 56px,
+- mobile 36px
+
+kullanılır.
+
+Standart sayfalarda doğrudan Display kullanılmaz.
+
+## 32.4 Zorunlu Kurallar
 
 Claude Design:
 
 - yalnızca tanımlı fontları kullanmalı,
+- `Typography.md v2.0` ve `Design Tokens.json v2.0.0` ölçeğini kullanmalı,
 - tanımlı palette kalmalı,
 - 4px spacing sistemini korumalı,
-- semantic color kullanmalı,
+- semantic color ve typography token kullanmalı,
 - bir tasarımda bir ana mesaj taşımalı,
+- bir web sayfasında yalnızca bir Display kullanmalı,
+- standart sayfada Page H1 kullanmalı,
+- H3 ve altı seviyelerde varsayılan olarak Manrope kullanmalı,
+- section heading’i desktop 36px üzerinde kullanmamalı,
+- gövdeyi 16px altına indirmemeli,
 - gerçek Türkçe içerikle test etmeli,
 - mobil varyant üretmeli,
 - loading/error/empty state düşünmeli,
@@ -1793,21 +2093,24 @@ Claude Design:
 - fotoğrafı gerçek deneyim kanıtı olarak kullanmalı,
 - yeni component üretmeden önce mevcut sistemi kontrol etmelidir.
 
-## 32.4 Yasaklar
+## 32.5 Yasaklar
 
 Claude Design:
 
+- her bölümü hero veya afiş gibi tasarlamamalı,
+- ikinci bir Display üretmemeli,
+- eski 60–72px web display ölçeğini kullanmamalı,
 - üçüncü font eklememeli,
 - neon veya mor aura kullanmamalı,
 - siyah–altın lüks sistem kurmamalı,
 - bütün kartları farklı renge boyamamalı,
 - çok küçük metin kullanmamalı,
 - serif UI button üretmemeli,
-- mobile ekranı desktop'tan otomatik küçültmemeli,
-- hover'a kritik bilgi koymamalı,
+- mobile ekranı desktop’tan otomatik küçültmemeli,
+- hover’a kritik bilgi koymamalı,
 - erişilemez pastel metin kullanmamalı,
 - rastgele radius ve shadow üretmemeli,
-- dark mode'u talep olmadan üretmemeli,
+- dark mode’u talep olmadan üretmemeli,
 - sosyal medya şablonunu ürün arayüzüne taşımamalıdır.
 
 ---
@@ -1826,6 +2129,12 @@ Claude Design:
 - Ana görev açık mı?
 - Birden fazla primary action var mı?
 - Operasyonel bilgi dekorun arkasında mı?
+- Bir sayfada birden fazla Display var mı?
+- Standart sayfada yanlışlıkla Display kullanılmış mı?
+- Section H2 desktop’ta 36px’i geçiyor mu?
+- Kart başlıkları afiş ölçeğine çıkmış mı?
+- H3 ve altı seviyelerde Manrope kullanılmış mı?
+- Türkçe başlıklar üç satırı geçiyor mu?
 
 ## Foundations
 
@@ -1885,6 +2194,8 @@ Derin lacivert
 Sınırlı bronz
 Zeytin ve toprak destekleri
 Source Serif 4 + Manrope
+Tek Display / Page H1 / Section H2 hiyerarşisi
+Daha küçük ve içerik odaklı web ölçeği
 Kontrollü radius
 Düşük elevation
 Sistemli boşluk
@@ -1950,6 +2261,8 @@ Bu tasarım sistemi aşağıdaki proje kararlarının birlikte değerlendirilmes
 - Üye, eğitmen ve admin deneyimi ihtiyaçları
 - W3C WCAG 2.2 erişilebilirlik kriterleri
 - Modern bilgelik, bütünlük, yol, akış ve bağlantı kavramları
+- The School of Life’taki kategori ve içerik açıklığı
+- Esalen’deki deneyim, workshop ve içerik yakınlığı
 
 ---
 
